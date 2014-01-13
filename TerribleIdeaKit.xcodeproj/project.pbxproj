@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BE9550517CE562C00C4AC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550417CE562C00C4AC20 /* UIKit.framework */; };
+		7BE9550717CE562C00C4AC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550617CE562C00C4AC20 /* Foundation.framework */; };
+		7BE9550917CE562C00C4AC20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550817CE562C00C4AC20 /* CoreGraphics.framework */; };
+		7BE9550F17CE562C00C4AC20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9550D17CE562C00C4AC20 /* InfoPlist.strings */; };
+		7BE9551117CE562C00C4AC20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9551017CE562C00C4AC20 /* main.m */; };
+		7BE9551517CE562C00C4AC20 /* TIKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9551417CE562C00C4AC20 /* TIKAppDelegate.m */; };
+		7BE9551717CE562C00C4AC20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551617CE562C00C4AC20 /* Default.png */; };
+		7BE9551917CE562C00C4AC20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551817CE562C00C4AC20 /* Default@2x.png */; };
+		7BE9551B17CE562C00C4AC20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */; };
+		7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BE9550117CE562C00C4AC20 /* TerribleIdeaKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerribleIdeaKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE9550417CE562C00C4AC20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BE9550617CE562C00C4AC20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BE9550817CE562C00C4AC20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BE9550C17CE562C00C4AC20 /* TerribleIdeaKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TerribleIdeaKit-Info.plist"; sourceTree = "<group>"; };
+		7BE9550E17CE562C00C4AC20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BE9551017CE562C00C4AC20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BE9551217CE562C00C4AC20 /* TerribleIdeaKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TerribleIdeaKit-Prefix.pch"; sourceTree = "<group>"; };
+		7BE9551317CE562C00C4AC20 /* TIKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIKAppDelegate.h; sourceTree = "<group>"; };
+		7BE9551417CE562C00C4AC20 /* TIKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIKAppDelegate.m; sourceTree = "<group>"; };
+		7BE9551617CE562C00C4AC20 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7BE9551817CE562C00C4AC20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TIKPartyMode.h"; sourceTree = "<group>"; };
+		7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TIKPartyMode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BE954FE17CE562C00C4AC20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9550517CE562C00C4AC20 /* UIKit.framework in Frameworks */,
+				7BE9550717CE562C00C4AC20 /* Foundation.framework in Frameworks */,
+				7BE9550917CE562C00C4AC20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BE954F817CE562B00C4AC20 = {
+			isa = PBXGroup;
+			children = (
+				7BE9550A17CE562C00C4AC20 /* TerribleIdeaKit */,
+				7BE9550317CE562C00C4AC20 /* Frameworks */,
+				7BE9550217CE562C00C4AC20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BE9550217CE562C00C4AC20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9550117CE562C00C4AC20 /* TerribleIdeaKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE9550317CE562C00C4AC20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9550417CE562C00C4AC20 /* UIKit.framework */,
+				7BE9550617CE562C00C4AC20 /* Foundation.framework */,
+				7BE9550817CE562C00C4AC20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BE9550A17CE562C00C4AC20 /* TerribleIdeaKit */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9552117CE566200C4AC20 /* Categories */,
+				7BE9551317CE562C00C4AC20 /* TIKAppDelegate.h */,
+				7BE9551417CE562C00C4AC20 /* TIKAppDelegate.m */,
+				7BE9550B17CE562C00C4AC20 /* Supporting Files */,
+			);
+			path = TerribleIdeaKit;
+			sourceTree = "<group>";
+		};
+		7BE9550B17CE562C00C4AC20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9550C17CE562C00C4AC20 /* TerribleIdeaKit-Info.plist */,
+				7BE9550D17CE562C00C4AC20 /* InfoPlist.strings */,
+				7BE9551017CE562C00C4AC20 /* main.m */,
+				7BE9551217CE562C00C4AC20 /* TerribleIdeaKit-Prefix.pch */,
+				7BE9551617CE562C00C4AC20 /* Default.png */,
+				7BE9551817CE562C00C4AC20 /* Default@2x.png */,
+				7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BE9552117CE566200C4AC20 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */,
+				7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BE9550017CE562C00C4AC20 /* TerribleIdeaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE9551E17CE562C00C4AC20 /* Build configuration list for PBXNativeTarget "TerribleIdeaKit" */;
+			buildPhases = (
+				7BE954FD17CE562C00C4AC20 /* Sources */,
+				7BE954FE17CE562C00C4AC20 /* Frameworks */,
+				7BE954FF17CE562C00C4AC20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerribleIdeaKit;
+			productName = TerribleIdeaKit;
+			productReference = 7BE9550117CE562C00C4AC20 /* TerribleIdeaKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BE954F917CE562B00C4AC20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TIK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joshua Sullivan";
+			};
+			buildConfigurationList = 7BE954FC17CE562B00C4AC20 /* Build configuration list for PBXProject "TerribleIdeaKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BE954F817CE562B00C4AC20;
+			productRefGroup = 7BE9550217CE562C00C4AC20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE9550017CE562C00C4AC20 /* TerribleIdeaKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BE954FF17CE562C00C4AC20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9550F17CE562C00C4AC20 /* InfoPlist.strings in Resources */,
+				7BE9551717CE562C00C4AC20 /* Default.png in Resources */,
+				7BE9551917CE562C00C4AC20 /* Default@2x.png in Resources */,
+				7BE9551B17CE562C00C4AC20 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BE954FD17CE562C00C4AC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9551117CE562C00C4AC20 /* main.m in Sources */,
+				7BE9551517CE562C00C4AC20 /* TIKAppDelegate.m in Sources */,
+				7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BE9550D17CE562C00C4AC20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE9550E17CE562C00C4AC20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BE9551C17CE562C00C4AC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BE9551D17CE562C00C4AC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE9551F17CE562C00C4AC20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TerribleIdeaKit/TerribleIdeaKit-Prefix.pch";
+				INFOPLIST_FILE = "TerribleIdeaKit/TerribleIdeaKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BE9552017CE562C00C4AC20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TerribleIdeaKit/TerribleIdeaKit-Prefix.pch";
+				INFOPLIST_FILE = "TerribleIdeaKit/TerribleIdeaKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BE954FC17CE562B00C4AC20 /* Build configuration list for PBXProject "TerribleIdeaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE9551C17CE562C00C4AC20 /* Debug */,
+				7BE9551D17CE562C00C4AC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE9551E17CE562C00C4AC20 /* Build configuration list for PBXNativeTarget "TerribleIdeaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE9551F17CE562C00C4AC20 /* Debug */,
+				7BE9552017CE562C00C4AC20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BE954F917CE562B00C4AC20 /* Project object */;
+}
