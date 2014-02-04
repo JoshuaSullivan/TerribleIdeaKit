@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B39281318A153D900487900 /* UIView+Spinterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39281218A153D900487900 /* UIView+Spinterface.m */; };
+		7B39281518A156F900487900 /* StoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39281418A156F900487900 /* StoryboardIPhone.storyboard */; };
+		7B39281718A1571B00487900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39281618A1571B00487900 /* Images.xcassets */; };
+		7B39281A18A158C600487900 /* TIKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39281918A158C600487900 /* TIKRootViewController.m */; };
+		7B39282018A161D300487900 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B39281F18A161D300487900 /* QuartzCore.framework */; };
 		7BE9550517CE562C00C4AC20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550417CE562C00C4AC20 /* UIKit.framework */; };
 		7BE9550717CE562C00C4AC20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550617CE562C00C4AC20 /* Foundation.framework */; };
 		7BE9550917CE562C00C4AC20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9550817CE562C00C4AC20 /* CoreGraphics.framework */; };
@@ -20,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B39281118A153D900487900 /* UIView+Spinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spinterface.h"; sourceTree = "<group>"; };
+		7B39281218A153D900487900 /* UIView+Spinterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spinterface.m"; sourceTree = "<group>"; };
+		7B39281418A156F900487900 /* StoryboardIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardIPhone.storyboard; sourceTree = "<group>"; };
+		7B39281618A1571B00487900 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B39281818A158C600487900 /* TIKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIKRootViewController.h; sourceTree = "<group>"; };
+		7B39281918A158C600487900 /* TIKRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIKRootViewController.m; sourceTree = "<group>"; };
+		7B39281F18A161D300487900 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7BE9550117CE562C00C4AC20 /* TerribleIdeaKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerribleIdeaKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE9550417CE562C00C4AC20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BE9550617CE562C00C4AC20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B39282018A161D300487900 /* QuartzCore.framework in Frameworks */,
 				7BE9550517CE562C00C4AC20 /* UIKit.framework in Frameworks */,
 				7BE9550717CE562C00C4AC20 /* Foundation.framework in Frameworks */,
 				7BE9550917CE562C00C4AC20 /* CoreGraphics.framework in Frameworks */,
@@ -71,6 +84,7 @@
 		7BE9550317CE562C00C4AC20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B39281F18A161D300487900 /* QuartzCore.framework */,
 				7BE9550417CE562C00C4AC20 /* UIKit.framework */,
 				7BE9550617CE562C00C4AC20 /* Foundation.framework */,
 				7BE9550817CE562C00C4AC20 /* CoreGraphics.framework */,
@@ -81,9 +95,13 @@
 		7BE9550A17CE562C00C4AC20 /* TerribleIdeaKit */ = {
 			isa = PBXGroup;
 			children = (
-				7BE9552117CE566200C4AC20 /* Categories */,
 				7BE9551317CE562C00C4AC20 /* TIKAppDelegate.h */,
 				7BE9551417CE562C00C4AC20 /* TIKAppDelegate.m */,
+				7B39281818A158C600487900 /* TIKRootViewController.h */,
+				7B39281918A158C600487900 /* TIKRootViewController.m */,
+				7B39281418A156F900487900 /* StoryboardIPhone.storyboard */,
+				7B39281618A1571B00487900 /* Images.xcassets */,
+				7BE9552117CE566200C4AC20 /* Categories */,
 				7BE9550B17CE562C00C4AC20 /* Supporting Files */,
 			);
 			path = TerribleIdeaKit;
@@ -108,6 +126,8 @@
 			children = (
 				7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */,
 				7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */,
+				7B39281118A153D900487900 /* UIView+Spinterface.h */,
+				7B39281218A153D900487900 /* UIView+Spinterface.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -164,8 +184,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B39281518A156F900487900 /* StoryboardIPhone.storyboard in Resources */,
 				7BE9550F17CE562C00C4AC20 /* InfoPlist.strings in Resources */,
 				7BE9551717CE562C00C4AC20 /* Default.png in Resources */,
+				7B39281718A1571B00487900 /* Images.xcassets in Resources */,
 				7BE9551917CE562C00C4AC20 /* Default@2x.png in Resources */,
 				7BE9551B17CE562C00C4AC20 /* Default-568h@2x.png in Resources */,
 			);
@@ -181,6 +203,8 @@
 				7BE9551117CE562C00C4AC20 /* main.m in Sources */,
 				7BE9551517CE562C00C4AC20 /* TIKAppDelegate.m in Sources */,
 				7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */,
+				7B39281318A153D900487900 /* UIView+Spinterface.m in Sources */,
+				7B39281A18A158C600487900 /* TIKRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +281,12 @@
 		7BE9551F17CE562C00C4AC20 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TerribleIdeaKit/TerribleIdeaKit-Prefix.pch";
 				INFOPLIST_FILE = "TerribleIdeaKit/TerribleIdeaKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,9 +295,12 @@
 		7BE9552017CE562C00C4AC20 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TerribleIdeaKit/TerribleIdeaKit-Prefix.pch";
 				INFOPLIST_FILE = "TerribleIdeaKit/TerribleIdeaKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
