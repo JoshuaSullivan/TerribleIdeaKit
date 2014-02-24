@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, TIKSpinterfaceType) {
+    TIKSpinterfaceTypeXAxis,
+    TIKSpinterfaceTypeYAxis,
+    TIKSpinterfaceTypeZAxis,
+    TIKSpinterfaceTypeRandomMajorAxis,
+    TIKSpinterfaceTypeRandomAxis
+};
+
 @interface UIView (Spinterface)
 
-- (void)spinterface;
+- (void)spinterfaceOfType:(TIKSpinterfaceType)type;
+
+- (void)spinpocalypseOfType:(TIKSpinterfaceType)type;
 
 @end

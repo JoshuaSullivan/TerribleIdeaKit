@@ -52,7 +52,7 @@
 - (IBAction)spinterfaceTapped:(id)sender
 {
     for (UIView *view in self.interfaceElements) {
-        [view spinterface];
+        [view spinterfaceOfType:TIKSpinterfaceTypeRandomAxis];
     }
 }
 
