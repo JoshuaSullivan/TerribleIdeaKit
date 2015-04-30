@@ -23,6 +23,7 @@
 		7BE9551B17CE562C00C4AC20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */; };
 		7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */; };
 		9474C6D4AE6CF4543445F00F /* UILabel+TIKTextMangler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */; };
+		9474CEAE4C7770A31A419166 /* UIView+TIKResonanceCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C4577151A62835388E1D /* UIView+TIKResonanceCascade.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +50,9 @@
 		7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TIKPartyMode.h"; sourceTree = "<group>"; };
 		7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TIKPartyMode.m"; sourceTree = "<group>"; };
 		9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TIKTextMangler.m"; sourceTree = "<group>"; };
+		9474C4577151A62835388E1D /* UIView+TIKResonanceCascade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TIKResonanceCascade.m"; sourceTree = "<group>"; };
 		9474C73195EB7C3A88C701B6 /* UILabel+TIKTextMangler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TIKTextMangler.h"; sourceTree = "<group>"; };
+		9474CE9C205467B51F9D1750 /* UIView+TIKResonanceCascade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TIKResonanceCascade.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				7B39281218A153D900487900 /* UIView+TIKSpinterface.m */,
 				9474C73195EB7C3A88C701B6 /* UILabel+TIKTextMangler.h */,
 				9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */,
+				9474C4577151A62835388E1D /* UIView+TIKResonanceCascade.m */,
+				9474CE9C205467B51F9D1750 /* UIView+TIKResonanceCascade.h */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				7B39281318A153D900487900 /* UIView+TIKSpinterface.m in Sources */,
 				7B39281A18A158C600487900 /* TIKRootViewController.m in Sources */,
 				9474C6D4AE6CF4543445F00F /* UILabel+TIKTextMangler.m in Sources */,
+				9474CEAE4C7770A31A419166 /* UIView+TIKResonanceCascade.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

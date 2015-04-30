@@ -7,6 +7,7 @@
 
 
 #import "UILabel+TIKTextMangler.h"
+#import "UIView+TIKResonanceCascade.h"
 
 @implementation UILabel (TIKTextMangler)
 
@@ -44,5 +45,16 @@
     self.text = endString;
 }
 
+- (NSTimer *)creepingChaos
+{
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(spreadChaos) userInfo:nil repeats:YES];
+    return timer;
+}
+
+- (void)spreadChaos
+{
+    [self createResonanceCascade:@selector(swapCharacters)];
+    [self createPartialResonanceCascade:@selector(randomCase) effectChance:10];
+}
 
 @end

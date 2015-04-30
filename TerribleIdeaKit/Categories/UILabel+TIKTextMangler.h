@@ -10,8 +10,12 @@
 
 @interface UILabel (TIKTextMangler)
 
+/** Convert all characters in a UILabel to random case. */
 - (void)randomCase;
 
+/** Swap 2 random characters in a UILabel. */
 - (void)swapCharacters;
+
+- (NSTimer *)creepingChaos;
 
 @end

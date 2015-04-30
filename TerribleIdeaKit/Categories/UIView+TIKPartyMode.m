@@ -7,17 +7,13 @@
 //
 
 #import "UIView+TIKPartyMode.h"
+#import "UIView+TIKResonanceCascade.h"
 
 @implementation UIView (TIKPartyMode)
 
 - (void)partyMode
 {
-    CGFloat hue = (CGFloat)drand48();
-    CGFloat saturation = (CGFloat)drand48() * 0.4f + 0.6f;
-    self.backgroundColor = [UIColor colorWithHue:hue saturation:saturation brightness:1.0f alpha:1.0f];
-    for (UIView *subView in self.subviews) {
-        [subView partyMode];
-    }
+    [self createResonanceCascade:@selector(burnBabyBurn)];
 }
 
 - (NSTimer *)discoInferno
@@ -28,6 +24,13 @@
                                                     userInfo:nil
                                                      repeats:YES];
     return timer;
+}
+
+- (void)burnBabyBurn
+{
+    CGFloat hue = (CGFloat)drand48();
+    CGFloat saturation = (CGFloat)drand48() * 0.4f + 0.6f;
+    self.backgroundColor = [UIColor colorWithHue:hue saturation:saturation brightness:1.0f alpha:1.0f];
 }
 
 @end
