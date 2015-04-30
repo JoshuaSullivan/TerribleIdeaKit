@@ -9,6 +9,7 @@
 #import "TIKRootViewController.h"
 #import "UIView+TIKPartyMode.h"
 #import "UIView+TIKSpinterface.h"
+#import "UIView+TIKTextMangler.h"
 
 @interface TIKRootViewController ()
 
@@ -16,6 +17,7 @@
 
 - (IBAction)partyModeTapped:(id)sender;
 - (IBAction)spinterfaceTapped:(id)sender;
+- (IBAction)creepingChaosTapped:(id)sender;
 
 @end
 
@@ -55,5 +57,11 @@
         [view spinterfaceOfType:TIKSpinterfaceTypeRandomAxis];
     }
 }
+
+- (IBAction)creepingChaosTapped:(id)sender
+{
+    [self.view creepingChaos];
+}
+
 
 @end

@@ -6,14 +6,17 @@
 // Copyright (c) 2015 Joshua Sullivan. All rights reserved.
 
 
-#import "UILabel+TIKTextMangler.h"
+#import "UIView+TIKTextMangler.h"
 #import "UIView+TIKResonanceCascade.h"
 
-@implementation UILabel (TIKTextMangler)
+@implementation UIView (TIKTextMangler)
 
 - (void)randomCase
 {
-    NSString *startString = self.text;
+    if (!([self respondsToSelector:@selector(text)] && [self respondsToSelector:@selector(setText:)])) {
+        return;
+    }
+    NSString *startString = ((UILabel *)self).text;
     NSUInteger length = startString.length;
     NSMutableString *endString = [NSMutableString stringWithCapacity:length];
     for (NSUInteger i = 0; i < length; i++) {
@@ -24,13 +27,20 @@
             [endString appendString:[currentChar uppercaseString]];
         }
     }
-    self.text = [NSString stringWithString:endString];
+    ((UILabel *)self).text = [NSString stringWithString:endString];
+    [self setNeedsLayout];
 }
 
 - (void)swapCharacters
 {
-    NSString *startString = self.text;
+    if (!([self respondsToSelector:@selector(text)] && [self respondsToSelector:@selector(setText:)])) {
+        return;
+    }
+    NSString *startString = ((UILabel *)self).text;
     NSUInteger length = startString.length;
+    if (length < 2) {
+        return;
+    }
     NSUInteger startIndex = arc4random_uniform(length);
     NSUInteger endIndex;
     do {
@@ -42,19 +52,20 @@
     NSString *endChar = [startString substringWithRange:endRange];
     NSString *endString = [startString stringByReplacingCharactersInRange:startRange withString:endChar];
     endString = [endString stringByReplacingCharactersInRange:endRange withString:startChar];
-    self.text = endString;
+    ((UILabel *)self).text = endString;
+    [self setNeedsLayout];
 }
 
 - (NSTimer *)creepingChaos
 {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(spreadChaos) userInfo:nil repeats:YES];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(spreadChaos) userInfo:nil repeats:YES];
     return timer;
 }
 
 - (void)spreadChaos
 {
     [self createResonanceCascade:@selector(swapCharacters)];
-    [self createPartialResonanceCascade:@selector(randomCase) effectChance:10];
+    [self createPartialResonanceCascade:@selector(randomCase) effectChance:5];
 }
 
 @end

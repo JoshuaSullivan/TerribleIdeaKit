@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UILabel (TIKTextMangler)
+@interface UIView (TIKTextMangler)
 
 /** Convert all characters in a UILabel to random case. */
 - (void)randomCase;
@@ -16,6 +16,7 @@
 /** Swap 2 random characters in a UILabel. */
 - (void)swapCharacters;
 
+/** Text degrades slowly, but continuously. */
 - (NSTimer *)creepingChaos;
 
 @end
