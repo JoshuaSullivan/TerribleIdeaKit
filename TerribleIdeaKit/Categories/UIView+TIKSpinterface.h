@@ -18,8 +18,10 @@ typedef NS_ENUM(NSInteger, TIKSpinterfaceType) {
 
 @interface UIView (TIKSpinterface)
 
+/** Applies an obnoxious motion effect to the receiving view. */
 - (void)spinterfaceOfType:(TIKSpinterfaceType)type;
 
+/** A recursive spinterface. */
 - (void)spinpocalypseOfType:(TIKSpinterfaceType)type;
 
 @end

@@ -10,8 +10,10 @@
 
 @interface UIView (TIKResonanceCascade)
 
+/** Spiders the view hierarchy under the receiver, applying the receiver to any object which responds to it. */
 - (void)createResonanceCascade:(SEL)action;
 
+/** Same as above, but has a random chance of applying the selector. */
 - (void)createPartialResonanceCascade:(SEL)action effectChance:(NSUInteger)zeroToOneHundred;
 
 @end
