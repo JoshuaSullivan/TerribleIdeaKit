@@ -1,15 +1,15 @@
 //
-//  UIView+Spinterface.m
+//  UIView+TIKSpinterface.m
 //  TerribleIdeaKit
 //
 //  Created by Joshua Sullivan on 2/4/14.
 //  Copyright (c) 2014 Joshua Sullivan. All rights reserved.
 //
 
-#import "UIView+Spinterface.h"
+#import "UIView+TIKSpinterface.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UIView (Spinterface)
+@implementation UIView (TIKSpinterface)
 
 - (void)spinterfaceOfType:(TIKSpinterfaceType)type
 {

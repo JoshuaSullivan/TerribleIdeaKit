@@ -1,5 +1,5 @@
 //
-//  UIView+Spinterface.h
+//  UIView+TIKSpinterface.h
 //  TerribleIdeaKit
 //
 //  Created by Joshua Sullivan on 2/4/14.
@@ -16,7 +16,7 @@ typedef NS_ENUM(NSInteger, TIKSpinterfaceType) {
     TIKSpinterfaceTypeRandomAxis
 };
 
-@interface UIView (Spinterface)
+@interface UIView (TIKSpinterface)
 
 - (void)spinterfaceOfType:(TIKSpinterfaceType)type;
 

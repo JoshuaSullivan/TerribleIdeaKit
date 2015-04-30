@@ -10,29 +10,29 @@
 	<string>TerribleIdeaKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E4C9FE23-7D26-433E-8D91-BBC48DFB2887</key>
+		<key>662DFF47E8DC6F94D3FE4520400D69CB936BB9D2</key>
 		<string>https://github.com/JoshuaSullivan/TerribleIdeaKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TerribleIdeaKit.xcodeproj/project.xcworkspace</string>
+	<string>TerribleIdeaKit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E4C9FE23-7D26-433E-8D91-BBC48DFB2887</key>
+		<key>662DFF47E8DC6F94D3FE4520400D69CB936BB9D2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/JoshuaSullivan/TerribleIdeaKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E4C9FE23-7D26-433E-8D91-BBC48DFB2887</string>
+	<string>662DFF47E8DC6F94D3FE4520400D69CB936BB9D2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E4C9FE23-7D26-433E-8D91-BBC48DFB2887</string>
+			<string>662DFF47E8DC6F94D3FE4520400D69CB936BB9D2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TerribleIdeaKit</string>
 		</dict>

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B39281318A153D900487900 /* UIView+Spinterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39281218A153D900487900 /* UIView+Spinterface.m */; };
+		7B39281318A153D900487900 /* UIView+TIKSpinterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39281218A153D900487900 /* UIView+TIKSpinterface.m */; };
 		7B39281518A156F900487900 /* StoryboardIPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B39281418A156F900487900 /* StoryboardIPhone.storyboard */; };
 		7B39281718A1571B00487900 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39281618A1571B00487900 /* Images.xcassets */; };
 		7B39281A18A158C600487900 /* TIKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B39281918A158C600487900 /* TIKRootViewController.m */; };
@@ -22,11 +22,12 @@
 		7BE9551917CE562C00C4AC20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551817CE562C00C4AC20 /* Default@2x.png */; };
 		7BE9551B17CE562C00C4AC20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */; };
 		7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */; };
+		9474C6D4AE6CF4543445F00F /* UILabel+TIKTextMangler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B39281118A153D900487900 /* UIView+Spinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Spinterface.h"; sourceTree = "<group>"; };
-		7B39281218A153D900487900 /* UIView+Spinterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Spinterface.m"; sourceTree = "<group>"; };
+		7B39281118A153D900487900 /* UIView+TIKSpinterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TIKSpinterface.h"; sourceTree = "<group>"; };
+		7B39281218A153D900487900 /* UIView+TIKSpinterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TIKSpinterface.m"; sourceTree = "<group>"; };
 		7B39281418A156F900487900 /* StoryboardIPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryboardIPhone.storyboard; sourceTree = "<group>"; };
 		7B39281618A1571B00487900 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B39281818A158C600487900 /* TIKRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIKRootViewController.h; sourceTree = "<group>"; };
@@ -47,6 +48,8 @@
 		7BE9551A17CE562C00C4AC20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TIKPartyMode.h"; sourceTree = "<group>"; };
 		7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TIKPartyMode.m"; sourceTree = "<group>"; };
+		9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+TIKTextMangler.m"; sourceTree = "<group>"; };
+		9474C73195EB7C3A88C701B6 /* UILabel+TIKTextMangler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+TIKTextMangler.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +129,10 @@
 			children = (
 				7BE9552217CE568400C4AC20 /* UIView+TIKPartyMode.h */,
 				7BE9552317CE568400C4AC20 /* UIView+TIKPartyMode.m */,
-				7B39281118A153D900487900 /* UIView+Spinterface.h */,
-				7B39281218A153D900487900 /* UIView+Spinterface.m */,
+				7B39281118A153D900487900 /* UIView+TIKSpinterface.h */,
+				7B39281218A153D900487900 /* UIView+TIKSpinterface.m */,
+				9474C73195EB7C3A88C701B6 /* UILabel+TIKTextMangler.h */,
+				9474C2CEDCAF775E6EFC0AA1 /* UILabel+TIKTextMangler.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -203,8 +208,9 @@
 				7BE9551117CE562C00C4AC20 /* main.m in Sources */,
 				7BE9551517CE562C00C4AC20 /* TIKAppDelegate.m in Sources */,
 				7BE9552417CE568400C4AC20 /* UIView+TIKPartyMode.m in Sources */,
-				7B39281318A153D900487900 /* UIView+Spinterface.m in Sources */,
+				7B39281318A153D900487900 /* UIView+TIKSpinterface.m in Sources */,
 				7B39281A18A158C600487900 /* TIKRootViewController.m in Sources */,
+				9474C6D4AE6CF4543445F00F /* UILabel+TIKTextMangler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

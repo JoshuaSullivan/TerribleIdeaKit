@@ -8,7 +8,7 @@
 
 #import "TIKRootViewController.h"
 #import "UIView+TIKPartyMode.h"
-#import "UIView+Spinterface.h"
+#import "UIView+TIKSpinterface.h"
 
 @interface TIKRootViewController ()
 
